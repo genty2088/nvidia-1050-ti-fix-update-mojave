@@ -4,7 +4,7 @@ set -e
 
 PLISTBUDDY=/usr/libexec/PlistBuddy
 
-BLACKLIST_URL=https://raw.githubusercontent.com/genty2088/nvidia-1050-ti-fix-update-mojave/main/BLACKLIST
+BLACKLIST_URL=https://raw.githubusercontent.com/genty2088/nvidia-1050-ti-fix-update-mojave/main/BLACKLIST.txt
 UPDATE_URL=https://gfe.nvidia.com/mac-update
 
 SYSTEM_BUILD=$(system_profiler SPSoftwareDataType | grep 'System Version:' | cut -d '(' -f 2 | cut -d ')' -f 1)
