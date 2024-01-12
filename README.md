@@ -1,4 +1,4 @@
-ONLY nvidia 1050 ti.
+ONLY nvidia 1050 ti. (for opencore settings)
 
 Fix for installing the driver on the operating system "mojave" and lower.
 
